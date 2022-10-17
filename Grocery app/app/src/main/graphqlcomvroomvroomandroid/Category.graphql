@@ -1,7 +1,0 @@
-query Category($type: String!) {
-    getCategories(type: $type) {
-        id
-        name
-        img_url
-    }
-}
